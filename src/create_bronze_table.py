@@ -24,3 +24,6 @@ FROM read_files(
   header => true
 )
 ''')
+
+
+print(f'Bronze table created: {my_catalog}.default.health_bronze_demo_08')
